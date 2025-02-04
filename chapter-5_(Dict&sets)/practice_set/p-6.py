@@ -1,0 +1,18 @@
+# create an empty dictonary. Allow 4 friend to enter their favorite language as value and use key as their names. Assume that the names are unique
+s={}
+name=input("Enter fried   name ")
+lang=input("Enter language name ")
+s.update({name: lang})
+name=input("Enter fried   name ")
+lang=input("Enter language name ")
+s.update({name: lang})
+name=input("Enter fried   name ")
+lang=input("Enter language name ")
+s.update({name: lang})
+name=input("Enter fried   name ")
+lang=input("Enter language name ")
+s.update({name: lang})
+name=input("Enter fried   name ")
+lang=input("Enter language name ")
+s.update({name: lang})
+print(s)
