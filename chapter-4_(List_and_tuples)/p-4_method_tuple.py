@@ -1,0 +1,7 @@
+a=(1,32,544,False,45)
+print(a)
+no=a.count(45)
+print(no)
+i=a.index(32)
+print(i)
+print(len(a))
